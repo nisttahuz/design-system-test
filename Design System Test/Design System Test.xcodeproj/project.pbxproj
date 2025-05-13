@@ -14,6 +14,7 @@
 		FA3407B42DD3AD8500E52BF1 /* BorderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3407A92DD3AD8500E52BF1 /* BorderExtension.swift */; };
 		FA3407B52DD3AD8500E52BF1 /* GradientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3407AC2DD3AD8500E52BF1 /* GradientExtension.swift */; };
 		FA3407B62DD3AD8500E52BF1 /* RadiusExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3407AD2DD3AD8500E52BF1 /* RadiusExtension.swift */; };
+		FA3408942DD3BA3100E52BF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3408932DD3BA3100E52BF1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		FA3407AC2DD3AD8500E52BF1 /* GradientExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientExtension.swift; sourceTree = "<group>"; };
 		FA3407AD2DD3AD8500E52BF1 /* RadiusExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusExtension.swift; sourceTree = "<group>"; };
 		FA3407AE2DD3AD8500E52BF1 /* ShadowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowExtension.swift; sourceTree = "<group>"; };
+		FA3408932DD3BA3100E52BF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF1AC862DC036F2002E815B /* Design System Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design System Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF1AC932DC036F3002E815B /* Design System TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Design System TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF1AC9D2DC036F3002E815B /* Design System TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Design System TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +108,7 @@
 		FAF1AC7D2DC036F2002E815B = {
 			isa = PBXGroup;
 			children = (
+				FA3408932DD3BA3100E52BF1 /* Assets.xcassets */,
 				FA3407AF2DD3AD8500E52BF1 /* Styles */,
 				FAF1AC882DC036F2002E815B /* Design System Test */,
 				FAF1AC962DC036F3002E815B /* Design System TestTests */,
@@ -244,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3408942DD3BA3100E52BF1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
