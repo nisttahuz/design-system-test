@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FA3407B02DD3AD8500E52BF1 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3407AB2DD3AD8500E52BF1 /* FontExtension.swift */; };
+		FA3407B12DD3AD8500E52BF1 /* ShadowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3407AE2DD3AD8500E52BF1 /* ShadowExtension.swift */; };
+		FA3407B22DD3AD8500E52BF1 /* AppMeasures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3407A82DD3AD8500E52BF1 /* AppMeasures.swift */; };
+		FA3407B32DD3AD8500E52BF1 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3407AA2DD3AD8500E52BF1 /* ColorExtension.swift */; };
+		FA3407B42DD3AD8500E52BF1 /* BorderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3407A92DD3AD8500E52BF1 /* BorderExtension.swift */; };
+		FA3407B52DD3AD8500E52BF1 /* GradientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3407AC2DD3AD8500E52BF1 /* GradientExtension.swift */; };
+		FA3407B62DD3AD8500E52BF1 /* RadiusExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3407AD2DD3AD8500E52BF1 /* RadiusExtension.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		FAF1AC942DC036F3002E815B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA3407A82DD3AD8500E52BF1 /* AppMeasures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMeasures.swift; sourceTree = "<group>"; };
+		FA3407A92DD3AD8500E52BF1 /* BorderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderExtension.swift; sourceTree = "<group>"; };
+		FA3407AA2DD3AD8500E52BF1 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		FA3407AB2DD3AD8500E52BF1 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		FA3407AC2DD3AD8500E52BF1 /* GradientExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientExtension.swift; sourceTree = "<group>"; };
+		FA3407AD2DD3AD8500E52BF1 /* RadiusExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusExtension.swift; sourceTree = "<group>"; };
+		FA3407AE2DD3AD8500E52BF1 /* ShadowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowExtension.swift; sourceTree = "<group>"; };
 		FAF1AC862DC036F2002E815B /* Design System Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design System Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF1AC932DC036F3002E815B /* Design System TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Design System TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF1AC9D2DC036F3002E815B /* Design System TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Design System TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,9 +89,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA3407AF2DD3AD8500E52BF1 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				FA3407A82DD3AD8500E52BF1 /* AppMeasures.swift */,
+				FA3407A92DD3AD8500E52BF1 /* BorderExtension.swift */,
+				FA3407AA2DD3AD8500E52BF1 /* ColorExtension.swift */,
+				FA3407AB2DD3AD8500E52BF1 /* FontExtension.swift */,
+				FA3407AC2DD3AD8500E52BF1 /* GradientExtension.swift */,
+				FA3407AD2DD3AD8500E52BF1 /* RadiusExtension.swift */,
+				FA3407AE2DD3AD8500E52BF1 /* ShadowExtension.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		FAF1AC7D2DC036F2002E815B = {
 			isa = PBXGroup;
 			children = (
+				FA3407AF2DD3AD8500E52BF1 /* Styles */,
 				FAF1AC882DC036F2002E815B /* Design System Test */,
 				FAF1AC962DC036F3002E815B /* Design System TestTests */,
 				FAF1ACA02DC036F3002E815B /* Design System TestUITests */,
@@ -236,6 +268,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3407B02DD3AD8500E52BF1 /* FontExtension.swift in Sources */,
+				FA3407B12DD3AD8500E52BF1 /* ShadowExtension.swift in Sources */,
+				FA3407B22DD3AD8500E52BF1 /* AppMeasures.swift in Sources */,
+				FA3407B32DD3AD8500E52BF1 /* ColorExtension.swift in Sources */,
+				FA3407B42DD3AD8500E52BF1 /* BorderExtension.swift in Sources */,
+				FA3407B52DD3AD8500E52BF1 /* GradientExtension.swift in Sources */,
+				FA3407B62DD3AD8500E52BF1 /* RadiusExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
